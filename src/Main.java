@@ -59,7 +59,7 @@ public class Main {
         System.out.println("Задача 4");
 
         int age2 = 3;
-        if (age2 >= 2 && age <= 6) {
+        if (age2 >= 2 && age2 <= 6) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад.");
         } else if (age2 >= 7 && age2 <= 17) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в школу.");
@@ -81,7 +81,7 @@ public class Main {
         }
 
         age2 = 18;
-        if (age2 >= 2 && age <= 6) {
+        if (age2 >= 2 && age2 <= 6) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад.");
         } else if (age2 >= 7 && age2 <= 17) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в школу.");
